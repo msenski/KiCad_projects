@@ -1,0 +1,18 @@
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# KiCad local state and active-file locks
+*.kicad_prl
+~*.lck
+fp-info-cache
+
+# KiCad recovery, backups, and editor-history repositories
+.history/
+**/.history/
+*-backups/
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak

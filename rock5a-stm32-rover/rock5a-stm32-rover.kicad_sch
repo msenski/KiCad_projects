@@ -5752,6 +5752,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 115.57) (xy 186.69 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125d96dc-b693-4e2f-be03-329e34f68804")
+	)
+	(wire
+		(pts
 			(xy 223.52 64.77) (xy 231.14 64.77)
 		)
 		(stroke
@@ -5769,6 +5779,16 @@
 			(type default)
 		)
 		(uuid "1a391e97-dcb5-4ebc-b0ea-dfa31439e1ef")
+	)
+	(wire
+		(pts
+			(xy 181.61 113.03) (xy 186.69 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2400b1c7-9e50-4271-8be3-1381718e0f35")
 	)
 	(wire
 		(pts
@@ -5879,6 +5899,26 @@
 			(type default)
 		)
 		(uuid "4847d8ba-2160-4877-b380-2eeeb78e4ca1")
+	)
+	(wire
+		(pts
+			(xy 208.28 115.57) (xy 214.63 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4e0e95-e933-482b-a147-c95c3a09aad1")
+	)
+	(wire
+		(pts
+			(xy 194.31 113.03) (xy 199.39 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec1de2d-26ba-47ff-b282-f7e9023c7fdb")
 	)
 	(wire
 		(pts
@@ -6052,6 +6092,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 115.57) (xy 175.26 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0d384b-5020-4775-8809-ba50525052e3")
+	)
+	(wire
+		(pts
 			(xy 207.01 83.82) (xy 207.01 87.63)
 		)
 		(stroke
@@ -6069,6 +6119,16 @@
 			(type default)
 		)
 		(uuid "923d93f3-cd87-45ea-8205-d967dce948cc")
+	)
+	(wire
+		(pts
+			(xy 168.91 113.03) (xy 175.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959d01f9-cc58-480b-852c-748f5ed74af2")
 	)
 	(wire
 		(pts
@@ -6242,6 +6302,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 115.57) (xy 199.39 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d9468b-8cfd-476e-9175-10b0e49d81a1")
+	)
+	(wire
+		(pts
 			(xy 181.61 96.52) (xy 191.77 96.52)
 		)
 		(stroke
@@ -6372,6 +6442,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 113.03) (xy 214.63 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e5402a-4574-42b6-b06c-9bd13c302afe")
+	)
+	(wire
+		(pts
 			(xy 133.35 107.95) (xy 140.97 107.95)
 		)
 		(stroke
@@ -6490,6 +6570,16 @@
 		)
 		(uuid "0d577023-cbc9-4711-8cc2-4458f1af054e")
 	)
+	(label "SDA"
+		(at 170.18 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f023a10-d8db-422b-a708-707221d2ad88")
+	)
 	(label "+3v3"
 		(at 81.28 78.74 0)
 		(effects
@@ -6499,6 +6589,16 @@
 			(justify left bottom)
 		)
 		(uuid "10cbdcc9-06ad-466d-a1b5-66f33619f135")
+	)
+	(label "+3v3"
+		(at 194.31 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1129ebbc-62d8-4eaf-be73-c702fb9e1fb0")
 	)
 	(label "GND"
 		(at 81.28 68.58 0)
@@ -6569,6 +6669,16 @@
 			(justify left bottom)
 		)
 		(uuid "2aaf94df-07a1-4109-a07b-eba73db9148c")
+	)
+	(label "GND"
+		(at 181.61 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b490255-1c43-4444-96bb-fe7e1f2a0027")
 	)
 	(label "GND"
 		(at 116.84 71.12 0)
@@ -6800,6 +6910,16 @@
 		)
 		(uuid "741aabfd-016d-4fe7-a190-88fd77978e5b")
 	)
+	(label "5V"
+		(at 209.55 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74d5ea01-b312-4ab3-a304-ce09a0fca569")
+	)
 	(label "MOTOR_RF_2"
 		(at 228.6 69.85 0)
 		(effects
@@ -6809,6 +6929,16 @@
 			(justify left bottom)
 		)
 		(uuid "7977281a-9617-4113-a3cf-84aeba288389")
+	)
+	(label "+3v3"
+		(at 194.31 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8424c9de-0939-480f-a838-df28fc65461f")
 	)
 	(label "SCL"
 		(at 81.28 86.36 0)
@@ -6920,6 +7050,16 @@
 		)
 		(uuid "aab91a8a-4aec-4376-981f-b6ef01ef93f8")
 	)
+	(label "SCL"
+		(at 170.18 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "adc918b8-7c7f-4d9a-ab6e-53ccfa37f64d")
+	)
 	(label "+3v3"
 		(at 81.28 93.98 0)
 		(effects
@@ -7020,6 +7160,16 @@
 		)
 		(uuid "d8a1d06b-9650-4cac-b7f6-a3bfb6a39d43")
 	)
+	(label "5V"
+		(at 209.55 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc976459-962f-40df-aba2-324764cfd113")
+	)
 	(label "TIM3_CH3"
 		(at 116.84 76.2 0)
 		(effects
@@ -7029,6 +7179,16 @@
 			(justify left bottom)
 		)
 		(uuid "ddc4eb26-eda5-49fd-9f88-9b6050da84ad")
+	)
+	(label "GND"
+		(at 181.61 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0f4a0c8-8c0c-401b-82b7-ef103140badf")
 	)
 	(label "MOTOR_LF_1"
 		(at 228.6 72.39 0)
@@ -7200,6 +7360,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 203.2 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21d58e1b-255e-468a-a13e-1de7daa898cd")
+		(property "Reference" "J16"
+			(at 205.994 109.728 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 203.835 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 203.2 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 203.2 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1bee06a9-51e0-4fea-8d3d-73c753a968f1")
+		)
+		(pin "2"
+			(uuid "847f6e56-568e-4d8b-8c21-7844a4a4832f")
+		)
+		(instances
+			(project "rock5a-stm32-rover"
+				(path "/5e97358e-cde2-4746-9405-4e3f90bd646e"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 189.23 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "234bce11-78ab-4b88-89c8-f3ccfc1d73c6")
+		(property "Reference" "J15"
+			(at 192.024 109.728 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 189.865 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 189.23 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 189.23 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb2a08b9-b5ac-408c-bf5d-d7f07891910a")
+		)
+		(pin "2"
+			(uuid "1db41f3e-2e75-4973-84a7-515d6e400a1e")
+		)
+		(instances
+			(project "rock5a-stm32-rover"
+				(path "/5e97358e-cde2-4746-9405-4e3f90bd646e"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 154.94 54.61 270)
 		(mirror x)
@@ -7274,6 +7594,86 @@
 			(project "rock5a-stm32-rover"
 				(path "/5e97358e-cde2-4746-9405-4e3f90bd646e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 163.83 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b8acc7e-ccd3-4226-a19c-d1934f1f98bb")
+		(property "Reference" "J13"
+			(at 166.624 109.728 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 164.465 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 163.83 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 163.83 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c519d5b-6d77-4f08-9a94-ad93cbbf76ab")
+		)
+		(pin "2"
+			(uuid "8b32279d-aa06-4b07-b5f0-2dbc09383e1d")
+		)
+		(instances
+			(project "rock5a-stm32-rover"
+				(path "/5e97358e-cde2-4746-9405-4e3f90bd646e"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -7514,6 +7914,86 @@
 			(project "rock5a-stm32-rover"
 				(path "/5e97358e-cde2-4746-9405-4e3f90bd646e"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 176.53 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5fcd8c58-545f-4f5f-b9c7-91bb527c5e7c")
+		(property "Reference" "J14"
+			(at 179.324 109.728 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 177.165 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 176.53 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 176.53 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "badf89e7-f6d0-4fc7-a3d4-b7c8895e5246")
+		)
+		(pin "2"
+			(uuid "76eba30c-34b7-42ac-b758-f0550fa6ca46")
+		)
+		(instances
+			(project "rock5a-stm32-rover"
+				(path "/5e97358e-cde2-4746-9405-4e3f90bd646e"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -7958,6 +8438,97 @@
 			(project "rock5a-stm32-rover"
 				(path "/5e97358e-cde2-4746-9405-4e3f90bd646e"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x05_Pin_1")
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 96.52 83.82 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a341be6-9dd3-4d2e-a65a-5824b0260f2d")
+		(property "Reference" "J10"
+			(at 98.552 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 95.885 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "f1f31685-dd1c-4f75-a292-4cee1364f828")
+		)
+		(pin "5"
+			(uuid "4fda6d4f-e000-4fa6-9d57-009a9b18fc32")
+		)
+		(pin "1"
+			(uuid "5567df3b-dffe-4366-8035-78f4fcaa2fbe")
+		)
+		(pin "2"
+			(uuid "9504de13-d831-4ed3-a13f-25e24e076a82")
+		)
+		(pin "3"
+			(uuid "e98808fd-803e-4851-9d33-51edcb3c2018")
+		)
+		(instances
+			(project "rock5a-stm32-rover"
+				(path "/5e97358e-cde2-4746-9405-4e3f90bd646e"
+					(reference "J10")
 					(unit 1)
 				)
 			)

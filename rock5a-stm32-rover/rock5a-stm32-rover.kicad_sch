@@ -5615,10 +5615,6 @@
 		(uuid "3eccb207-0a3d-4fa4-917f-dad68d8617e9")
 	)
 	(no_connect
-		(at 128.27 71.12)
-		(uuid "4ccc9d2f-e639-49e7-b58a-f1351eae4473")
-	)
-	(no_connect
 		(at 140.97 120.65)
 		(uuid "4e038720-c41f-42ec-964a-0dc7e65f2b51")
 	)
@@ -5843,6 +5839,16 @@
 			(type default)
 		)
 		(uuid "3a57d20e-2952-46ab-960f-d20396e1c6aa")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 128.27 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd25ed3-a110-4409-b747-37db44c34811")
 	)
 	(wire
 		(pts
@@ -6564,6 +6570,16 @@
 		)
 		(uuid "2aaf94df-07a1-4109-a07b-eba73db9148c")
 	)
+	(label "GND"
+		(at 116.84 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e2519ec-5d97-4fef-8560-c59a5e67cc3e")
+	)
 	(label "MOTOR_RF_1"
 		(at 228.6 67.31 0)
 		(effects
@@ -6754,6 +6770,16 @@
 		)
 		(uuid "6ec19867-babf-4b12-9bfe-1b503d48c9cf")
 	)
+	(label "+7.5V"
+		(at 147.32 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "700aacd8-e48d-4252-bf6a-b54de3c1e744")
+	)
 	(label "PA6"
 		(at 158.75 78.74 0)
 		(effects
@@ -6943,16 +6969,6 @@
 			(justify left bottom)
 		)
 		(uuid "bbcc1faf-988a-455e-ad0d-fc37054a877f")
-	)
-	(label "+7.5V"
-		(at 190.5 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c18b1e7d-ee98-4a1d-ae29-6aa3d130f99d")
 	)
 	(label "5V"
 		(at 133.35 107.95 0)
@@ -7677,7 +7693,6 @@
 	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
 		(at 146.05 115.57 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7687,7 +7702,7 @@
 		(dnp no)
 		(uuid "82244d2e-95cc-45a5-a172-af05c60dcad0")
 		(property "Reference" "MPU6050"
-			(at 144.78 107.696 0)
+			(at 147.32 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7698,7 +7713,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Socket"
-			(at 144.78 118.1099 0)
+			(at 147.32 118.1099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
